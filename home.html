@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/navstyle.css">
+  <link rel="stylesheet" href="./css/home.css">
+  <title>Palete</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><img class="logo" src="./img/LOGOFOOTER.svg" alt=""></li><!--Deve direcionar para a home -->
+        <li>
+          <form class="search" action="/search" method="get">
+            <label for="search"></label>
+            <input type="text" id="search" name="search" placeholder="Digite sua pesquisa...">
+            <input type="submit" value="Pesquisar">
+          </form>
+        </li>
+        <li><a class="loginregistro" href="#">Entrar</a>|<a href="#">Registrar</a></li>
+        <li>
+          <a href="#" aria-label="Meu Carrinho"><!--Deve direcionar pro carrinho-->
+            <img class="paperbag" src="./img/PaperBag.svg" alt="Ícone de Carrinho de Compras">
+          </a>
+        </li>
+        <li><a class="paperbagdesc" href=""> Meu carrinho</a></li><!--Deve direcionar pro carrinho-->
+      </ul>
+    </nav>
+    <section class="hotbar">
+      <ul>
+        <li><a href="">Novidades</a></li>
+        <li><a href="">Cachorro</a></li>
+        <li><a href="">Gatos</a></li>
+        <li><a href="">Filhote</a></li>
+        <li><a href="">Sobre</a></li>
+      </ul>
+    </section>
+  </header>
+
+  <main>
+    <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./img/carossel.png" class="d-block w-100" alt="banner com cachorro filhote">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/destaque2.png" class="d-block w-100" alt="banner com gato filhote">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/destaque3.png" class="d-block w-100" alt="banner com cachorro adulto">
+        </div>
+        <div class="carousel-item">
+          <img src="./img/destaque4.png" class="d-block w-100" alt="banner com gato adulto">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="categories-container">
+      <div class="categories-item">
+        <img src="img/racao-umida.png" alt="imagem ração">
+        <span>Ração Úmida</span>
+      </div>
+      <div class="categories-item">
+        <img src="img/gato.png" alt="imagem gato">
+        <span>Gato</span>
+      </div>
+      <div class="categories-item">
+        <img src="img/filhote.png" alt="imagem filhote">
+        <span>Filhote</span>
+      </div>
+      <div class="categories-item">
+        <img src="img/adulto.png" alt="imagem animais adultos">
+        <span>Adulto</span>
+      </div>
+      <div class="categories-item">
+        <img src="img/idoso.png" alt="imagem animais idosos">
+        <span>Idoso</span>
+      </div>
+      <div class="categories-item">
+        <img src="img/cachorro.png" alt="imagem cachorro">
+        <span>Cachorro</span>
+      </div>
+      <div class="categories-item">
+        <img src="img/racao-seca.png" alt="imagem ração seca">
+        <span>Ração Seca</span>
+      </div>
+    </div>
+
+    <section>
+      <h1>Destaques</h1>
+      <div class="product-container">
+        <div class="product-item">
+          <img src="img/sacher-dog.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/racao-seca-cat.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/racao-umida-cat.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/racao-seca-cat.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/sacher-dog.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h1>Produtos</h1>
+      <div class="product-container">
+        <div class="product-item">
+          <img src="img/racao-umida-cat.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/racao-seca-cat.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/racao-umida-cat.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/sacher-dog.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/racao-seca-cat.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/sacher-dog.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/racao-umida-cat.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/racao-seca-cat.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/sacher-dog.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/racao-umida-cat.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/racao-seca-cat.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/sacher-dog.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/racao-umida-cat.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/racao-seca-cat.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+        <div class="product-item">
+          <img src="img/sacher-dog.png" alt="Imagem da ração">
+          <span>Ração para gato adulto 15,8KG</span>
+          <button id="btn-see-more">Ver mais</button>
+          <button id="btn-buy-now">Comprar Agora</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-logo">
+        <img src="img/LOGOFOOTER.svg" alt="Logo Palete">
+        <span translate="no">Palete</span>
+      </div>
+      <div class="footer-information-container">
+        <ul>
+          <li><a href="">BLOG</a></li>
+          <li><a href="">SOBRE</a></li>
+          <li><a href="">SAIBA MAIS</a></li>
+          <li><a href="">CONTATO</a></li>
+        </ul>
+        <div class="media-container">
+          <img src="img/image54.png" alt="logo instagram">
+          <img src="img/image53.png" alt="logo facebook">
+        </div>
+        <div class="bar">
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./bootstrap/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
