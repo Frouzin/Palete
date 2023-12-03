@@ -249,7 +249,7 @@ hr{
 }
 .produtos_recomendacoes .comprar{
   border: 0.2em solid;
-  background-color: #fff;
+  /* background-color: #fff; */
 }
 
 @media (max-width: 1070px) {

@@ -132,7 +132,7 @@ aside img:hover{
   height: fit-content;
   flex-direction: column;
   padding: 1em 1em;
-  background-color: #003;
+  background-color: #000033;
 }
 .compras h1{
   color: #fff;
@@ -170,7 +170,7 @@ aside img:hover{
   width: 100%;
 }
 .produtos h1{
-  color: #000;
+  color: #000033;
   margin-left: 1em;
   margin-bottom: 1em;
 }
@@ -214,7 +214,7 @@ aside img:hover{
   transform: scale(1.1);
 }
 .comprar{
-  margin-top: 5px;
+    margin-top: 5px;
     width: 170px;
     border: solid 3px #000033;
     border-radius: 20px;
@@ -226,7 +226,7 @@ aside img:hover{
 }
 .comprar:hover{
   color: #ffff;
-  background-color: #000033;
+  background: #000033;
   transform: scale(1.1);
   
 }
