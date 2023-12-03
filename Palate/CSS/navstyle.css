@@ -1,0 +1,86 @@
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+  margin: 0 1.5vw;
+  font-size: 1.2rem;
+}
+.hotbar ul a:hover{
+  color:#FDE72F;
+}
+.logo {
+  margin-right: 5vw;
+}
+
+.paperbag {
+  margin-left: 1vw;
+}
+
+.hotbar {
+  display: flex;
+  background-color: #07073F;
+  padding: 1.5vw;
+  width: 100vw;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+
+.hotbar ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.hotbar ul a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  margin: 0.5vw 1vw;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: -1.5vw;
+}
+
+#search {
+  flex-grow: 1;
+  width: 100%;
+  padding: 0.75vw 6vw 0.75vw 2vw; 
+  margin: 0;
+  border: 1px solid #07073F;
+  border-radius: 5px 0 0 5px;
+  font-size: 1.2rem;
+}
+
+.search input[type="submit"] {
+  padding: 0.75vw 1.5vw;
+  border: 1px solid #07073F;
+  border-radius: 0 5px 5px 0;
+  background-color: #07073F;
+  color: white;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+.search input[type="submit"]:hover{
+  color:#FDE72F;
+}
+.loginregistro {
+  margin-left: 5vw;
+}
+
