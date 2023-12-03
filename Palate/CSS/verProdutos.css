@@ -3,7 +3,7 @@
   display: flex;
   gap: 1em;
   flex-direction: column;
-  margin: 2em;
+  margin: 4em;
 }
 .direcionamento{
   display: flex;
@@ -189,7 +189,7 @@ aside img:hover{
   width: 8em;
   padding: 2em 1em;
   border-radius: 0.6em;
-  /* background-color: #d1d1d1; */
+  
 }
 .container h3{
   margin: 0;
