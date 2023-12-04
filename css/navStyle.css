@@ -44,7 +44,6 @@ nav ul a {
 .hotbar ul {
   list-style-type: none;
   display: flex;
-  margin-right: 35vw;
 }
 
 .hotbar ul a {
