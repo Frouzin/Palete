@@ -6,6 +6,7 @@ body {
 header {
   display: grid;
   grid-template-rows: 2;
+  margin: 0 -10em;
 }
 
 nav {

@@ -1,86 +1,101 @@
-
-
-footer {
-  margin-top: 10vh;
-  opacity: 90%;
+footer{
+  display: flex;
+  align-items: center;
+  margin: 0 -10em;
+  padding: 2em 10em;
+  justify-content: space-between;
+  margin-top: 15em;
   background-color: #07073F;
-  width: 100vw;
-  height: 220px;
+}
+footer .logo_footer{
   display: flex;
-  align-items: center;
-  justify-content: center;
   position: relative;
-  overflow: hidden;
-
-}
-
-.footer-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.footer-logo {
-  display: flex;
+  left: 10em;
+  top: 1em;
   flex-direction: column;
   align-items: center;
+  color: #fff;
 }
-
-.footer-logo img {
-  width: 60px;
-  height: 60px;
+.logo_footer img{
+  width: 2em;
+  border-radius: 4em;
+  padding: 0.8em;
+  background-color: #fff;
 }
-
-.footer-logo span {
-  color: #ffff;
-  font-size: 1.3rem;
-  margin-top: 5px;
-}
-
-.footer-information-container {
-  z-index: 1;
-  width: 75vw;
+.nav_footer{
   display: flex;
-  position: relative;
+  gap: 1em;
 }
-
-.footer-information-container ul {
-  list-style: none;
-  width: 40%;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  color: #ffff;
+.nav_footer a{
+  font-size: 0.8em;
+  color: #fff;
 }
-
-.footer-information-container ul a {
-  text-decoration: none;
-  color: #ffff;
-}
-
-.media-container {
-  display: flex;
-  width: 60%;
-  justify-content: end;
-}
-
-.media-container img {
-  width: 40px;
-  height: 40px;
-  margin-left: 20px;
-}
-
-.bar {
+.nav_footer::before{
+  content: "";
   position: absolute;
-  margin-left: 20px;
-  width: 100%;
-  bottom: -10px;
-  border-bottom: 2px solid yellow;
+  width: 40em;
+  height: 0.2em;
+  margin-top: 1.5em;
+  margin-left: -1em;
+  z-index: 1;
+  background-color: rgb(232, 235, 45);
+}
+.rede_social{
+  display: flex;
+  margin-right: 10em;
+  align-items: center;
+  gap: 1em;
+}
+.rede_social img{
+  z-index: 1;
+}
+.elipse{
+  position: absolute;
+  width: 30em;
+  height: 24em;
+  z-index: 0;
+  margin-top: -12.6em;
+  margin-left: -5em;
+  background-image: url(img/Ellipse.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-.logoFooter{
-  background-color: aliceblue;
-  border-radius: 10%;
-
+@media (max-width: 1300px) {
+  footer .logo_footer{
+      position: relative;
+      left: 2em;
+  }
+  .nav_footer::before{
+      width: 40em;
+  }
+  .elipse{
+      width: 30em;
+      height: 23em;
+      margin-top: -11.8em;
+      margin-left: -6.4em;
+  }
+}
+@media (max-width: 1070px) {
+  footer  .logo_footer{
+      left: -2em;
+  }
+  .rede_social{
+      position: relative;
+      left: 10em;
+  }
+  .nav_footer::before{
+      width: 34em;
+  }
+  .elipse{
+      width: 25em;
+      height: 18em;
+      margin-top: -6.8em;
+      margin-left: -11.4em;
+  }
+}
+@media (max-width: 900px) {
+  .nav_footer a{
+      font-size: 0.7em;
+  }
 }

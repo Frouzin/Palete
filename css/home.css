@@ -1,7 +1,11 @@
+body{
+
+}
+
 #carouselExampleIndicators {
   width: 100vw;
-  margin-top: 20px;
   overflow: hidden;
+  margin: 1em 1em 0em -10em;
 }
 
 .categories-container {
@@ -48,8 +52,14 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   flex-wrap: wrap;
+  margin: 0 -5em;
 }
-
+.des{
+  margin-bottom: 1em;
+}
+.pro{
+  margin-bottom: 1em;
+}
 .product-item {
   z-index: 1;
   display: flex;
