@@ -1,0 +1,33 @@
+@import url(./home.css);
+@import url(./padrão.css);
+@import url(./navstyle.css);
+@import url(./footer.css);
+@import url(./responsividade.css);
+@import url(./aside.css);
+@import url(./compras.css);
+@import url(./verProdutos.css);
+@import url(./carrinho.css);
+@import url(./teladePagamento.css);
+@import "css/header.css";
+@import "css/footer.css";
+@import "css/inicio.css";
+@import "css/css_index/compras.css";
+@import "css/css_index/aside.css";
+@import "css/css_carrinho/carrinho.css";
+@import "css/css_carrinho/recomendacoes.css";
+@import "css/css_carrinho/avaliacao.css";
+html{
+  scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+  display: none;
+}
+body{
+  margin: 0;
+  padding: 0;
+  margin: 0 10em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+*{
+  text-decoration: none;
+}
