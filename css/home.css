@@ -1,0 +1,126 @@
+#carouselExampleIndicators {
+  width: 100vw;
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.categories-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.categories-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+
+.categories-item:hover {
+  transform: scale(1.1);
+}
+
+.categories-item span {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 1.2em;
+  transition: ease 0.3s;
+}
+
+h1 {
+  margin-top: 60px;
+  text-align: center;
+  color: #000033;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.product-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 60px;
+  flex-basis: calc(20% - 20px);
+}
+
+.product-item img {
+  width: 150px;
+  height: 225px;
+}
+
+.product-item:hover {
+  transform: scale(1.1);
+}
+
+.product-item span {
+  width: 185px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#btn-see-more {
+  margin-top: 15px;
+  width: 130px;
+  border: solid 3px #000033;
+  border-radius: 20px;
+  background-color: #000033;
+  color: #ffff;
+  transition: ease 0.3s;
+}
+
+#btn-see-more:hover {
+  color: #000033;
+  background-color: #ffff;
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+#btn-buy-now {
+  margin-top: 5px;
+  width: 170px;
+  border: solid 3px #000033;
+  border-radius: 20px;
+  font-weight: 600;
+  background-color: #ffff;
+  color: #000033;
+  transition: ease 0.3s;
+}
+
+#btn-buy-now:hover {
+  color: #ffff;
+  background-color: #000033;
+  transform: scale(1.1);
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .footer-information-container ul {
+      flex-direction: column;
+      text-align: center;
+  }
+
+  .media-container {
+      height: 15vh;
+      margin-right: 4vw;
+      flex-direction: column;
+      align-items: end;
+      justify-content: space-between;
+  }
+}
