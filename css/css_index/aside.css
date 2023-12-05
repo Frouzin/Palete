@@ -213,7 +213,7 @@ aside img:hover{
     background-color: #003;
     color: #fff;
     padding: 2em;
-    border-radius: 1em;
+    border-radius: 5px;
   }
   .informacoesProduto .descricao{
     display: grid;
@@ -244,3 +244,25 @@ aside img:hover{
     transform: scale(1.1);
     
   }
+.informacoesProduto .ir{
+    padding: 0.9em;
+    border-radius: 5px;
+    color: #003;
+    background-color: #FDE72F;
+    margin: 4em;
+    
+    
+}
+
+.informacoesProduto .ir:hover{
+  background-color: forestgreen;
+  color: #003;
+  transform: scale(1.1);
+}
+.inf{
+  margin:1em;
+}
+.informacoesProduto{
+  border-radius: 15px;
+  text-align: center;
+}

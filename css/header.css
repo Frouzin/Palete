@@ -1,81 +1,118 @@
-header{
+header {
+  padding: 8px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin: 0;
 }
-.logo{
+
+.logo {
   width: 5em;
 }
-.pesquisa{
-display: flex;
+
+.pesquisa {
+  display: flex;
 }
-.pesquisa input{
-  width: 32em;
-  height: 1em;
-  padding: 0.8em;
-  border: 0.1em solid #0A0A42;
-  border-radius: 0.5em 0 0 0.5em;
+
+.pesquisa input {
+  width: 100%;
+  padding: 18px 32px;
+  border: none;
+  border-radius: 10px 0 0 10px;
+  font-size: 16px;
 }
-.pesquisa input:focus{
+
+.pesquisa input:focus {
   outline: none;
 }
-.pesquisa a, nav a {
-  border-radius: 0 0.5em 0.5em 0;
-  padding: 0.6em 1em;
-  color: #fff;
+
+.pesquisa a,
+nav a {
+  border-radius: 0 10px 10px 0;
+  padding: 18px 32px;
+  color: #ffffff;
   background-color: #0A0A42;
 }
-img{
+
+img {
   width: 2em;
 }
-.perfil, .carrinho{
+
+.perfil,
+.carrinho {
   display: flex;
   align-items: center;
-  gap: 0.6em;
+  gap: 12px;
 }
-.perfil a, .carrinho a {
+
+.perfil a,
+.carrinho a {
   color: #000;
   font-weight: 600;
 }
-nav{
-  display: flex;
+
+nav {
+  display: grid;
+  grid-template-columns: 1fr 3fr 2fr;
+  gap: 20px;
+  align-items: center;
   font-size: 0.7em;
-  justify-content: space-evenly;
   padding: 1.3em 30em;
   margin: 0 -14em;
   background-color: #0A0A42;
 }
 
-@media (max-width: 1300px){
-  .logo{
-      width: 4.5em;
+@media (max-width: 1300px) {
+  .logo {
+    width: 4.5em;
   }
   header a {
-      font-size: 0.8em;
+    font-size: 0.8em;
   }
-  .pesquisa input{
-      width: 20em;
-      height: 0.6em;
+  .pesquisa input {
+    width: 20em;
+    height: 0.6em;
+    padding: 0.8em;
   }
-  img{
-      width: 1.3em;
+  img {
+    width: 1.3em;
   }
-  .perfil, .carrinho{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 0.2em;
-      font-size: 0.8em;
+  .perfil,
+  .carrinho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2em;
+    font-size: 0.8em;
   }
-  .perfil img, .carrinho img{
-      width: 1em;
+  .perfil img,
+  .carrinho img {
+    width: 1em;
   }
 }
+
 @media (max-width: 1070px) {
-  body{
-      margin: 0 5em;
+  body {
+    margin: 0 5em;
   }
-  .pesquisa input{
-      width: 12em;
+  .pesquisa input {
+    width: 12em;
+  }
+}
+
+@media (max-width: 800px) {
+  header {
+    padding: 8px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .perfil,
+  .carrinho {
+    flex-direction: column;
   }
 }
