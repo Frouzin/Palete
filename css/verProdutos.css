@@ -1,3 +1,4 @@
+
 .inicio{
   display: flex;
   gap: 1em;
@@ -58,7 +59,7 @@ aside img:hover{
 .container_scroll{
   display: flex;
   gap: 2em;
-  animation: scroll 3s linear infinite;
+  animation: scroll 1s linear infinite;
 }
 
 @keyframes scroll {
@@ -66,7 +67,7 @@ aside img:hover{
       transform: translateX(0);
   }
   50% {
-      transform: translateX(calc(-13vw));
+      transform: translateX(calc(3vw));
   }
   100% {
       transform: translateX(0);

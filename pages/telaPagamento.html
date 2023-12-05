@@ -5,7 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="../assets/bootstrap5Css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/carrinho.css">
   <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/css_index/aside.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <link rel="stylesheet" href="../css/header.css">
 
   <title>Palate-carrinho</title>
   <!-- Fav icon -->
@@ -15,36 +19,28 @@
 
 <body>
   <header>
-    <nav>
-      <ul>
-        <li><img class="logo" src="../img/icons/novalogo-removebg-preview 2.svg" alt=""></li>
-        <li>
-          <form class="search" action="/search" method="get">
-            <label for="search"></label>
-            <input type="text" id="search" name="search" placeholder="Digite sua pesquisa...">
-            <input type="submit" value="Pesquisar">
-          </form>
-        </li>
-        <li><a class="loginregistro" href="#">Entrar</a>|<a href="#">Registrar</a></li>
-        <li>
-          <a href="#" aria-label="Meu Carrinho">
-
-            <img class="paperbag" src="../img/icons/PaperBag.svg" alt="Ícone de Carrinho de Compras">
-          </a>
-        </li>
-        <li><a class="paperbagdesc" href=""> Meu carrinho</a></li>
-      </ul>
-    </nav>
-    <section class="hotbar">
-      <ul>
-        <li><a href="">Novidades</a></li>
-        <li><a href="">Cachorro</a></li>
-        <li><a href="">Gatos</a></li>
-        <li><a href="">Filhote</a></li>
-        <li><a href="">Sobre</a></li>
-      </ul>
-    </section>
-  </header>
+    <a href="index.html"><img class="logo" src="../img/icons/novalogo-removebg-preview 2.svg" alt=""></a>
+    <div class="pesquisa">
+        <input type="text">
+        <a href="">Pesquisa</a>
+    </div>
+    <div class="perfil">
+        <img src="../img/icons/icon.png" alt="">
+        <a href="">Olá fulano</a>
+    </div>
+    <div class="carrinho">
+        <img src="../img/icons/PaperBag.svg" alt="">
+        <a href="">Meu carrinho</a>
+    </div>
+</header>
+<nav>
+    <a href="">Novidades</a>
+    <a href="">Cachorros</a>
+    <a href="">Gatos</a>
+    <a href="">Filhotes</a>
+    <a href="">Combos</a>
+    <a href="">Sobre</a>
+</nav>
 
   <main>
     <section>
@@ -55,7 +51,7 @@
           <a href="../pages/verProduto.html">Produto</a>
           <img src="../img/icons/Left.png" alt="">
           <a href="#">Ver Produto</a>
-          <img src="../img/incos/Left.png" alt="">
+          <img src="../img/icons/Left.png" alt="">
           <a href="../pages/carrinho.html">Carrinho</a>
         </div>
       </section>
@@ -91,9 +87,9 @@
         </div>
         
         <h3>FORMAS DE PAGAMENTO</h3>
-        <img src="../img/pagamento.png" alt="">
+        <img class="pag" src="../img/pagamento.png"  alt="">
       </div>
-      <div class="informacoesProduto">
+     
       </div>
       
     </section>
@@ -107,7 +103,7 @@
       </div>
     </aside>
     <section class="Recomendacoes">
-      <h1 class="titulo">Recomendações</h1>
+      <h6 class="titulo">Recomendações</h6>
       <div class="produtos_recomendacoes">
         <div class="container">
           <img src="../img/racao/gato/racaogato (1) 1.jpg" alt="">
@@ -144,29 +140,25 @@
 
   </main>
 
-  <footer id="footer-bg">
-    <div class="container" id="footer-content">
-      <div id="footer-brand">
-        <a href="./"><img src="./img/icons/logo.svg" alt=""></a>
-        <span>Palete</span>
-      </div>
-      <div id="footer-info">
-        <div id="footer-info-div">
-          <div id="footer-links">
-            <a href="/">BLOG</a>
-            <a href="/">SOBRE</a>
-            <a href="/">SAIBA MAIS</a>
-            <a href="/">CONTATO</a>
-          </div>
-          <div id="footer-social">
-            <a href="./"><img src="./img/icons/instagram.png" alt=""></a>
-            <a href="./"><img src="./img/icons/facebook.png" alt=""></a>
-          </div>
-        </div>
-        <p id="footer-email">Palete@support.com</p>
-      </div>
+  <footer>
+    <div class="logo_footer">
+        <img src="../img/icons/logo.svg" alt="">
+        <h3>Palete</h3>
     </div>
-  </footer>
+    <div class="contato">
+    <div class="nav_footer">
+        <a href="">BLOG</a>
+        <a href="">SOBRE</a>
+        <a href="">SAIBA MAIS</a>
+        <a href="">CONTATO</a>
+    </div>
+    </div>
+    <div class="rede_social">
+        <img src="../img/icons/facebook.png" alt="">
+        <img src="../img/icons/instagram.png" alt="">
+        <div class="elipse"></div>
+    </div>
+</footer>
   <script src="./assets/bootstrap5Js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -230,10 +230,14 @@ hr{
   margin-top: 8em;
   justify-content: space-evenly;
 }
-.titulo h1 {
+h6{
   font-size: 3em;
   color: #0A0A42;
+  text-align: center;
+  margin-top: 2em;
 }
+
+
 .produtos_recomendacoes h3{
   font-size: 1em;
   text-align: center;
