@@ -1,13 +1,3 @@
-@import url(./home.css);
-@import url(./padrão.css);
-@import url(./navstyle.css);
-@import url(./footer.css);
-@import url(./responsividade.css);
-@import url(./aside.css);
-@import url(./compras.css);
-@import url(./verProdutos.css);
-@import url(./carrinho.css);
-@import url(./teladePagamento.css);
 @import "css/header.css";
 @import "css/footer.css";
 @import "css/inicio.css";

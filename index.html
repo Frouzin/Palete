@@ -5,45 +5,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/bootstrap5Css/bootstrap.min.css">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/css_produto/Style.css">
+  <link rel="stylesheet" href="./css/home.css">
+
   <title>Palate-home</title>
   <!-- Fav icon -->
-  <link rel="shortcut icon" href="./img/icons/logo.svg" type="image/x-icon">
+  <link rel="shortcut icon" href="./img/icons/novalogo-removebg-preview 2.svg" type="image/x-icon">
 
 </head>
 
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><img class="logo" src="./img/icons/novalogo-removebg-preview 2.svg" alt=""></li><!--Deve direcionar para a home -->
-        <li>
-          <form class="search" action="/search" method="get">
-            <label for="search"></label>
-            <input type="text" id="search" name="search" placeholder="Digite sua pesquisa...">
-            <input type="submit" value="Pesquisar">
-          </form>
-        </li>
-        <li><a class="loginregistro" href="#">Entrar</a>|<a href="#">Registrar</a></li>
-        <li>
-          <a href="#" aria-label="Meu Carrinho"><!--Deve direcionar pro carrinho-->
-
-            <img class="paperbag" src="./img/icons/PaperBag.svg" alt="Ícone de Carrinho de Compras">
-          </a>
-        </li>
-        <li><a class="paperbagdesc" href=""> Meu carrinho</a></li><!--Deve direcionar pro carrinho-->
-      </ul>
+  <header class="container">
+    <nav id="nav-primary">
+      <a href="/"><img src="./img/icons/novalogo-removebg-preview 2.svg" alt=""></a>
+      <div id="pesquisa-div">
+        <input type="text" id="pesquisa-input">
+        <button id="pesquisa-button">Pesquisar</button>
+      </div>
+      <div id="buttons-div">
+        <button id="profile-button">
+          <img src="../css/img/perfil.png" alt="">
+          <span>olá fulano</span>
+        </button>
+        <button id="car-button">
+          <img id="car-bag" width="40" height="40" src="../img/icons/PaperBag.svg" alt="">
+          <span id="car-number">3</span>
+          <span>Meu carrinho</span>
+        </button>
+      </div>
     </nav>
-    <section class="hotbar">
-      <ul>
-        <li><a href="">Novidades</a></li>
-        <li><a href="">Cachorro</a></li>
-        <li><a href="">Gatos</a></li>
-        <li><a href="">Filhote</a></li>
-        <li><a href="">Sobre</a></li>
-      </ul>
-    </section>
   </header>
+  <nav id="nav-secondary">
+    <ul>
+      <li><a href="/">Novidades</a></li>
+      <li><a href="/">Cachorro</a></li>
+      <li><a href="/">Gatos</a></li>
+      <li><a href="/">Filhotes</a></li>
+      <li><a href="/">Combos</a></li>
+      <li><a href="/">Sobre</a></li>
+    </ul>
+  </nav>
 
   <main>
     <div id="carouselExampleIndicators" class="carousel slide">
@@ -241,31 +242,29 @@
     </section>
   </main>
 
-  <footer>
-    <div class="footer-container">
-      <div class="footer-logo">
-        <img class="logoFooter" src="./img/icons/novalogo-removebg-preview 2.svg" alt="Logo Palete">
-        <span translate="no">Palete</span>
+  <footer id="footer-bg">
+    <div class="container" id="footer-content">
+      <div id="footer-brand">
+        <a href="./"><img src="./img/icons/logo.svg" alt=""></a>
+        <span>Palete</span>
       </div>
-      <div class="footer-information-container">
-        <ul>
-          <li><a href="">BLOG</a></li>
-          <li><a href="">SOBRE</a></li>
-          <li><a href="">SAIBA MAIS</a></li>
-          <li><a href="">CONTATO</a></li>
-        </ul>
-        <div class="media-container">
-          <img src="./img/icons/facebook.png" alt="logo instagram">
-          <img src="./img/icons/instagram.png" alt="logo facebook">
+      <div id="footer-info">
+        <div id="footer-info-div">
+          <div id="footer-links">
+            <a href="/">BLOG</a>
+            <a href="/">SOBRE</a>
+            <a href="/">SAIBA MAIS</a>
+            <a href="/">CONTATO</a>
+          </div>
+          <div id="footer-social">
+            <a href="./"><img src="./img/icons/image_53.svg" alt=""></a>
+            <a href="./"><img src="./img/icons/image_54.svg" alt=""></a>
+          </div>
         </div>
-        <div class="bar">
-        </div>
+        <p id="footer-email">Palete@support.com</p>
       </div>
     </div>
   </footer>
-
-
   <script src="./assets/bootstrap5Js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>

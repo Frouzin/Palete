@@ -4,43 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/carrinho.css">
+    <link rel="stylesheet" href="../">
     <title>Palete</title>
 </head>
 <body>
-    <header>
-        <a href="index.html"><img class="logo" src="../img/icons/logo.svg" alt=""></a>
-        <div class="pesquisa">
-            <input type="text">
-            <a href="">Pesquisa</a>
-        </div>
-        <div class="perfil">
-            <img src="../img/icons/perfil.png" alt="">
-            <a href="">Olá fulano</a>
-        </div>
-        <div class="carrinho">
-            <img src="../img/icons/PaperBag.svg" alt="">
-            <a href="">Meu carrinho</a>
-        </div>
-    </header>
-    <nav>
-        <a href="">Novidades</a>
-        <a href="">Cachorros</a>
-        <a href="">Gatos</a>
-        <a href="">Filhotes</a>
-        <a href="">Combos</a>
-        <a href="">Sobre</a>
-    </nav>
-    <section>
-        <section class="inicio">
-            <div class="direcionamento">
-                <img src="..img/icons/Home Page.png" alt="">
-                <img src="..img/icons/Left.png" alt="">
-                <a href="index.html">Produto</a>
-                <img src="..img/icons/Left.png" alt="">
-                <a href="">Ver Produto</a>
-            </div>
-        </section>
-    </section>
+    <header class="container">
+        <nav id="nav-primary">
+          <a href="/"><img src="../img/icons/novalogo-removebg-preview 2.svg" alt=""></a>
+          <div id="pesquisa-div">
+            <input type="text" id="pesquisa-input">
+            <button id="pesquisa-button">Pesquisar</button>
+          </div>
+          <div id="buttons-div">
+            <button id="profile-button">
+              <img src="../css/img/perfil.png" alt="">
+              <span>olá fulano</span>
+            </button>
+            <button id="car-button">
+              <img id="car-bag" width="40" height="40" src="../img/icons/PaperBag.svg" alt="">
+              <span id="car-number">3</span>
+              <span>Meu carrinho</span>
+            </button>
+          </div>
+        </nav>
+      </header>
+      <nav id="nav-secondary">
+        <ul>
+          <li><a href="/">Novidades</a></li>
+          <li><a href="/">Cachorro</a></li>
+          <li><a href="/">Gatos</a></li>
+          <li><a href="/">Filhotes</a></li>
+          <li><a href="/">Combos</a></li>
+          <li><a href="/">Sobre</a></li>
+        </ul>
+      </nav>
+    
+
     <section class="carrinho_pagamento">
         <h1>Carrinho</h1>
         <div class="produto">
@@ -134,7 +134,7 @@
                 </div>
                 <div class="comentarios">
                     <div>
-                        <img src="/img/icons/icon.png" alt="">
+                        <img src="../img/icons/icon.png" alt="">
                         <h3>Matheus Reis</h3>
                     </div>
                     <h5>Super recomendo</h5>
@@ -144,24 +144,29 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div class="logo_footer">
-            <img src="../img/icons/logo.svg" alt="">
-            <h3>Palete</h3>
+    <footer id="footer-bg">
+        <div class="container" id="footer-content">
+          <div id="footer-brand">
+            <a href="./"><img src="../img/icons/logo.svg" alt=""></a>
+            <span>Palete</span>
+          </div>
+          <div id="footer-info">
+            <div id="footer-info-div">
+              <div id="footer-links">
+                <a href="/">BLOG</a>
+                <a href="/">SOBRE</a>
+                <a href="/">SAIBA MAIS</a>
+                <a href="/">CONTATO</a>
+              </div>
+              <div id="footer-social">
+                <a href="./"><img src="../img/icons/instagram.png" alt=""></a>
+                <a href="./"><img src="../img/icons/facebook.png" alt=""></a>
+              </div>
+            </div>
+            <p id="footer-email">Palete@support.com</p>
+          </div>
         </div>
-        <div class="contato">
-        <div class="nav_footer">
-            <a href="">BLOG</a>
-            <a href="">SOBRE</a>
-            <a href="">SAIBA MAIS</a>
-            <a href="">CONTATO</a>
-        </div>
-        </div>
-        <div class="rede_social">
-            <img src="../img/icons/facebook.png" alt="">
-            <img src="../img/icons/instagram.png" alt="">
-            <div class="elipse"></div>
-        </div>
-    </footer>
-</body>
-</html>
+      </footer>
+      <script src="./assets/bootstrap5Js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>

@@ -1,3 +1,8 @@
+body {
+  margin: 0!important;
+  overflow-x: hidden;
+}
+
 #carouselExampleIndicators {
   width: 100vw;
   margin-top: 20px;
@@ -108,7 +113,7 @@ h1 {
   transform: scale(1.1);
 }
 
-.footer-container {
+/* .footer-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -151,9 +156,9 @@ h1 {
 .footer-information-container ul a {
   text-decoration: none;
   color: #ffff;
-}
+} */
 
-.media-container {
+/* .media-container {
   display: flex;
   width: 60%;
   justify-content: end;
@@ -171,7 +176,7 @@ h1 {
   width: 100%;
   bottom: -10px;
   border-bottom: 2px solid yellow;
-}
+} */
 
 @media screen and (max-width: 950px) {
   .categories-container {
@@ -198,7 +203,7 @@ h1 {
       flex-basis: calc(100% - 20px);
   }
 
-  .footer-information-container ul {
+  /* .footer-information-container ul {
       flex-direction: column;
       text-align: center;
   }
@@ -209,5 +214,5 @@ h1 {
       flex-direction: column;
       align-items: end;
       justify-content: space-between;
-  }
+  } */
 }
