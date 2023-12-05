@@ -5,3 +5,6 @@
 @import url(./Assessment.css);
 @import url(./Footer.css);
 
+a{
+  color:white;
+}
