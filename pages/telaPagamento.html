@@ -10,7 +10,6 @@
   <link rel="stylesheet" href="../css/css_index/aside.css">
   <link rel="stylesheet" href="../css/footer.css">
   <link rel="stylesheet" href="../css/header.css">
-  <link rel="stylesheet" href="">
 
   <title>Palate-carrinho</title>
   <!-- Fav icon -->
@@ -20,7 +19,7 @@
 
 <body>
   <header>
-    <a href="index.html"><img class="logo" src="../img/icons/novalogo-removebg-preview 2.svg" alt=""></a>
+    <a href="../index.html"><img class="logo" src="../img/icons/novalogo-removebg-preview 2.svg" alt=""></a>
     <div class="pesquisa">
         <input type="text">
         <a href="">Pesquisa</a>
@@ -34,12 +33,12 @@
         <a href="">Meu carrinho</a>
     </div>
 </header>
-<nav>
+<nav class="sub">
     <a href="">Novidades</a>
-    <a href="">Cachorros</a>
-    <a href="">Gatos</a>
-    <a href="">Filhotes</a>
-    <a href="">Combos</a>
+    <a href="../pages/verProduto.html">Cachorros</a>
+    <a href="../pages/verProduto.html">Gatos</a>
+    <a href="../pages/verProduto.html">Filhotes</a>
+    <a href="../pages/verProduto.html">Combos</a>
     <a href="">Sobre</a>
 </nav>
 
@@ -47,11 +46,11 @@
     <section>
       <section class="inicio">
         <div class="direcionamento">
-          <img src="../img/icons/Home Page.png" alt="home">
+          <a href="../index.html"><img src="../img/icons/Home Page.png" alt="home"></a>
           <img src="../img/icons/Left.png" alt="">
           <a href="../pages/verProduto.html">Produto</a>
           <img src="../img/icons/Left.png" alt="">
-          <a href="#">Ver Produto</a>
+          <a href="../pages/verProduto.html">Ver Produto</a>
           <img src="../img/icons/Left.png" alt="">
           <a href="../pages/carrinho.html">Carrinho</a>
         </div>
@@ -139,7 +138,14 @@
         </div>
       </div>
     </section>
-
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <img src="../img/icons/novalogo-removebg-preview 2.svg" alt="">
+        <p>Compra Realizada!</p>
+        <a href="../index.html" class="btn-voltar-home">OK</a>
+      </div>
+    </div>
+    
   </main>
 
   <footer>
@@ -161,6 +167,7 @@
         <div class="elipse"></div>
     </div>
 </footer>
-  <script src="./assets/bootstrap5Js/bootstrap.bundle.min.js"></script>
+<script src="../script/pagamento.js"></script>
+<script src="./assets/bootstrap5Js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

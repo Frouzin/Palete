@@ -40,7 +40,7 @@ aside img:hover{
 .container_scroll{
     display: flex;
     gap: 2em;
-    animation: scroll 3s linear infinite;
+    animation: scroll 1s linear infinite;
 }
 
 @keyframes scroll {
@@ -48,7 +48,7 @@ aside img:hover{
         transform: translateX(0);
     }
     50% {
-        transform: translateX(calc(18vw));
+        transform: translateX(calc(-4vw));
     }
     100% {
         transform: translateX(0);
@@ -264,5 +264,5 @@ aside img:hover{
 }
 .informacoesProduto{
   border-radius: 15px;
-  text-align: center;
+  text-align: cente;
 }
